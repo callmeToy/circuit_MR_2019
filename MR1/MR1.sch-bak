@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:MR1-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -697,5 +696,4 @@ F 3 "" H 2600 4150 50  0001 C CNN
 $EndComp
 Text Label 1550 4450 0    50   ~ 0
 tape_led
-NoConn ~ 2450 5550
 $EndSCHEMATC

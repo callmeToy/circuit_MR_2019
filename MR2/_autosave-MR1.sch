@@ -697,5 +697,4 @@ F 3 "" H 2600 4150 50  0001 C CNN
 $EndComp
 Text Label 1550 4450 0    50   ~ 0
 tape_led
-NoConn ~ 2450 5550
 $EndSCHEMATC

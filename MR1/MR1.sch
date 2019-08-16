@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:MR1-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -474,11 +475,11 @@ Text Notes 3200 5800 0    50   ~ 0
 PWR_FLAG
 Text Notes 3200 4950 0    50   ~ 0
 Motor_PIN
-Text GLabel 5300 4150 0    50   Input ~ 0
+Text GLabel 5300 4250 0    50   Input ~ 0
 enc_Y_a
-Text GLabel 5300 3950 0    50   Input ~ 0
-enc_X_a
 Text GLabel 5300 4050 0    50   Input ~ 0
+enc_X_a
+Text GLabel 5300 3950 0    50   Input ~ 0
 enc_X_b
 Text GLabel 2600 3250 2    50   Input ~ 0
 enc_Y_b
@@ -646,7 +647,7 @@ F 3 "~" H 2400 2400 50  0001 C CNN
 	1    2400 2400
 	1    0    0    -1  
 $EndComp
-Text GLabel 5300 4250 0    50   Input ~ 0
+Text GLabel 5300 4150 0    50   Input ~ 0
 enc_Y_b
 Wire Notes Line
 	1550 2000 1550 5800
@@ -696,4 +697,5 @@ F 3 "" H 2600 4150 50  0001 C CNN
 $EndComp
 Text Label 1550 4450 0    50   ~ 0
 tape_led
+NoConn ~ 2450 5550
 $EndSCHEMATC
