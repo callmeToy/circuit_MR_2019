@@ -298,9 +298,9 @@ Text GLabel 6100 5300 2    50   Input ~ 0
 PWM_2
 Text GLabel 4300 3200 2    50   Input ~ 0
 PWM_1
-Text GLabel 4300 3300 2    50   Input ~ 0
-IO_1B
 Text GLabel 4300 3400 2    50   Input ~ 0
+IO_1B
+Text GLabel 4300 3300 2    50   Input ~ 0
 IO_1A
 Wire Wire Line
 	4300 3200 4150 3200
@@ -360,9 +360,9 @@ Text GLabel 5900 2250 2    50   Input ~ 0
 enc_elevator_b
 Text GLabel 5900 2350 2    50   Input ~ 0
 enc_elevator_a
-Text GLabel 5900 2900 2    50   Input ~ 0
-enc_collect_b
 Text GLabel 5900 3000 2    50   Input ~ 0
+enc_collect_b
+Text GLabel 5900 2900 2    50   Input ~ 0
 enc_collect_a
 Wire Notes Line
 	8350 1900 8350 5700
@@ -523,9 +523,21 @@ F 3 "" H 7450 5500 50  0001 C CNN
 	1    7450 5500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5300 4300
 Text Label 3350 4850 0    50   ~ 0
 motor
 Text Label 6700 5700 0    50   ~ 0
 switch
+NoConn ~ 5300 4600
+NoConn ~ 5300 4700
+NoConn ~ 5300 4800
+NoConn ~ 5300 4900
+NoConn ~ 6100 5100
+NoConn ~ 6100 5200
+NoConn ~ 4400 2300
+Text GLabel 5300 4300 0    50   Input ~ 0
+sw1
+Text GLabel 5300 4400 0    50   Input ~ 0
+sw2
+Text GLabel 5300 4500 0    50   Input ~ 0
+sw3
 $EndSCHEMATC

@@ -179,7 +179,7 @@ U 1 1 5D2671AB
 P 7150 3700
 F 0 "J5" H 7150 3800 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 7150 3550 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 7150 3700 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 7150 3700 50  0001 C CNN
 F 3 "~" H 7150 3700 50  0001 C CNN
 	1    7150 3700
 	1    0    0    -1  
@@ -298,9 +298,9 @@ Text GLabel 6100 5300 2    50   Input ~ 0
 PWM_2
 Text GLabel 4300 3200 2    50   Input ~ 0
 PWM_1
-Text GLabel 4300 3300 2    50   Input ~ 0
-IO_1B
 Text GLabel 4300 3400 2    50   Input ~ 0
+IO_1B
+Text GLabel 4300 3300 2    50   Input ~ 0
 IO_1A
 Wire Wire Line
 	4300 3200 4150 3200
@@ -356,13 +356,13 @@ F 3 "" H 5900 2800 50  0001 C CNN
 	1    5900 2800
 	1    0    0    -1  
 $EndComp
-Text GLabel 5900 2250 2    50   Input ~ 0
-enc_elevator_b
 Text GLabel 5900 2350 2    50   Input ~ 0
+enc_elevator_b
+Text GLabel 5900 2250 2    50   Input ~ 0
 enc_elevator_a
-Text GLabel 5900 2900 2    50   Input ~ 0
-enc_collect_b
 Text GLabel 5900 3000 2    50   Input ~ 0
+enc_collect_b
+Text GLabel 5900 2900 2    50   Input ~ 0
 enc_collect_a
 Wire Notes Line
 	8350 1900 8350 5700
@@ -457,7 +457,7 @@ U 1 1 5D5CF74F
 P 7200 4300
 F 0 "J6" H 7308 4481 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 7308 4390 50  0000 C CNN
-F 2 "" H 7200 4300 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 7200 4300 50  0001 C CNN
 F 3 "~" H 7200 4300 50  0001 C CNN
 	1    7200 4300
 	1    0    0    -1  
@@ -468,7 +468,7 @@ U 1 1 5D5D026C
 P 7200 4850
 F 0 "J8" H 7308 5031 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 7308 4940 50  0000 C CNN
-F 2 "" H 7200 4850 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 7200 4850 50  0001 C CNN
 F 3 "~" H 7200 4850 50  0001 C CNN
 	1    7200 4850
 	1    0    0    -1  
@@ -479,7 +479,7 @@ U 1 1 5D5D0499
 P 7250 5400
 F 0 "J9" H 7358 5581 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 7358 5490 50  0000 C CNN
-F 2 "" H 7250 5400 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 7250 5400 50  0001 C CNN
 F 3 "~" H 7250 5400 50  0001 C CNN
 	1    7250 5400
 	1    0    0    -1  
@@ -523,9 +523,21 @@ F 3 "" H 7450 5500 50  0001 C CNN
 	1    7450 5500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5300 4300
 Text Label 3350 4850 0    50   ~ 0
 motor
 Text Label 6700 5700 0    50   ~ 0
 switch
+NoConn ~ 5300 4600
+NoConn ~ 5300 4700
+NoConn ~ 5300 4800
+NoConn ~ 5300 4900
+NoConn ~ 6100 5100
+NoConn ~ 6100 5200
+NoConn ~ 4400 2300
+Text GLabel 5300 4300 0    50   Input ~ 0
+sw1
+Text GLabel 5300 4400 0    50   Input ~ 0
+sw2
+Text GLabel 5300 4500 0    50   Input ~ 0
+sw3
 $EndSCHEMATC

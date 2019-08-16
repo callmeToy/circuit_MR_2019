@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\mocch\OneDrive\デスクトップ\robocon\circuit-MR-2019\MR1\MR1.sch)
-    (date "2019/08/16 14:25:52")
+    (date "2019/08/16 15:32:50")
     (tool "Eeschema (5.1.2)-2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
