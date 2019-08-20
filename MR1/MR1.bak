@@ -86,9 +86,9 @@ Text GLabel 5300 4750 0    50   Input ~ 0
 IO_1B
 Text GLabel 5300 4350 0    50   Input ~ 0
 Serial_rx
-Text GLabel 5300 3850 0    50   Input ~ 0
+Text GLabel 5300 3950 0    50   Input ~ 0
 I2C_scl
-Text GLabel 5300 3750 0    50   Input ~ 0
+Text GLabel 5300 3850 0    50   Input ~ 0
 I2C_sda
 Text GLabel 5300 4650 0    50   Input ~ 0
 IO_1A
@@ -141,8 +141,6 @@ NoConn ~ 6100 3650
 NoConn ~ 6100 3750
 NoConn ~ 6100 3850
 NoConn ~ 6100 3950
-NoConn ~ 5300 4450
-NoConn ~ 5300 4550
 NoConn ~ 5300 3250
 NoConn ~ 5300 3350
 $Comp
@@ -475,12 +473,8 @@ Text Notes 3200 5800 0    50   ~ 0
 PWR_FLAG
 Text Notes 3200 4950 0    50   ~ 0
 Motor_PIN
-Text GLabel 5300 4150 0    50   Input ~ 0
+Text GLabel 5300 4550 0    50   Input ~ 0
 enc_Y_a
-Text GLabel 5300 3950 0    50   Input ~ 0
-enc_X_a
-Text GLabel 5300 4050 0    50   Input ~ 0
-enc_X_b
 Text GLabel 2600 3250 2    50   Input ~ 0
 enc_Y_b
 Text GLabel 2600 3350 2    50   Input ~ 0
@@ -647,7 +641,7 @@ F 3 "~" H 2400 2400 50  0001 C CNN
 	1    2400 2400
 	1    0    0    -1  
 $EndComp
-Text GLabel 5300 4250 0    50   Input ~ 0
+Text GLabel 5300 4450 0    50   Input ~ 0
 enc_Y_b
 Wire Notes Line
 	1550 2000 1550 5800
@@ -698,4 +692,9 @@ $EndComp
 Text Label 1550 4450 0    50   ~ 0
 tape_led
 NoConn ~ 2450 5550
+NoConn ~ 5300 4250
+Text GLabel 5300 4050 0    50   Input ~ 0
+enc_X_b
+Text GLabel 5300 4150 0    50   Input ~ 0
+enc_X_a
 $EndSCHEMATC

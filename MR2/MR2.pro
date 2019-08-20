@@ -1,6 +1,6 @@
-update=2019/06/27 17:26:53
+update=2019/08/20 9:08:40
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=omni_controller.net
+LastNetListRead=MR2.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -223,7 +223,7 @@ Enabled=1
 [pcbnew/Layer.F.Fab]
 Enabled=1
 [pcbnew/Layer.Rescue]
-Enabled=1
+Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
