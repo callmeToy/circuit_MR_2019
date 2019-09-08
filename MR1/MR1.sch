@@ -60,9 +60,9 @@ Wire Wire Line
 	4350 4350 4200 4350
 Text GLabel 8150 4950 2    50   Input ~ 0
 Serial_rx
-Text GLabel 6100 4050 2    50   Input ~ 0
-CAN_td
 Text GLabel 6100 4150 2    50   Input ~ 0
+CAN_td
+Text GLabel 6100 4050 2    50   Input ~ 0
 CAN_rd
 Text GLabel 6100 4250 2    50   Input ~ 0
 IO_4B

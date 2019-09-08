@@ -15,34 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	5900 2150 5750 2150
+	4300 3850 4150 3850
 Wire Wire Line
-	5900 2250 5750 2250
+	4300 3950 4150 3950
 Wire Wire Line
-	5900 2350 5750 2350
-Text GLabel 6100 4700 2    50   Input ~ 0
-CAN_td
-Text GLabel 6100 4800 2    50   Input ~ 0
-CAN_rd
-Text GLabel 6100 5500 2    50   Input ~ 0
-enc_collect_b
-Text GLabel 6100 5600 2    50   Input ~ 0
-enc_collect_a
-Text GLabel 5300 5400 0    50   Input ~ 0
-enc_elevator_b
-Text GLabel 5300 5300 0    50   Input ~ 0
-enc_elevator_a
-$Comp
-L MyComponent:LPC1768 U5
-U 1 1 5D16AC0C
-P 5700 4650
-F 0 "U5" H 5700 5825 50  0000 C CNN
-F 1 "LPC1768" H 5700 5734 50  0000 C CNN
-F 2 "MyFootprint:LPC1768" H 5750 6250 50  0001 C CNN
-F 3 "" H 5750 6250 50  0001 C CNN
-	1    5700 4650
-	1    0    0    -1  
-$EndComp
+	4300 4050 4150 4050
 NoConn ~ 5300 3800
 NoConn ~ 6100 3700
 NoConn ~ 6100 3900
@@ -60,12 +37,12 @@ NoConn ~ 5300 4000
 $Comp
 L power:GND #PWR01
 U 1 1 5D1B8192
-P 5750 2450
-F 0 "#PWR01" H 5750 2200 50  0001 C CNN
-F 1 "GND" H 5755 2277 50  0000 C CNN
-F 2 "" H 5750 2450 50  0001 C CNN
-F 3 "" H 5750 2450 50  0001 C CNN
-	1    5750 2450
+P 4150 4150
+F 0 "#PWR01" H 4150 3900 50  0001 C CNN
+F 1 "GND" H 4155 3977 50  0000 C CNN
+F 2 "" H 4150 4150 50  0001 C CNN
+F 3 "" H 4150 4150 50  0001 C CNN
+	1    4150 4150
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -186,10 +163,6 @@ F 3 "~" H 7150 3700 50  0001 C CNN
 $EndComp
 Connection ~ 7350 3700
 Wire Wire Line
-	5300 3700 5150 3700
-Wire Wire Line
-	5150 3700 5150 3800
-Wire Wire Line
 	6100 3800 6250 3800
 Wire Wire Line
 	6250 3800 6250 3650
@@ -200,12 +173,12 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x04_Male J1
 U 1 1 5D260A05
-P 5550 2250
-F 0 "J1" H 5522 2224 50  0000 R CNN
-F 1 "Conn_01x04_Male" H 5522 2133 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 5550 2250 50  0001 C CNN
-F 3 "~" H 5550 2250 50  0001 C CNN
-	1    5550 2250
+P 3950 3950
+F 0 "J1" H 3922 3924 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 3922 3833 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 3950 3950 50  0001 C CNN
+F 3 "~" H 3950 3950 50  0001 C CNN
+	1    3950 3950
 	1    0    0    -1  
 $EndComp
 Text Notes 6800 4100 0    50   ~ 0
@@ -225,145 +198,99 @@ F 3 "" H 4400 2400 50  0001 C CNN
 	1    4400 2400
 	-1   0    0    -1  
 $EndComp
-Wire Notes Line
-	3350 1900 3350 5700
-NoConn ~ 5300 5000
-Text GLabel 6100 5000 2    50   Input ~ 0
+Text GLabel 5300 5500 0    50   Input ~ 0
 IO_2A
-Text GLabel 6100 4900 2    50   Input ~ 0
-IO_2B
 $Comp
 L Connector:Conn_01x04_Male J3
 U 1 1 5D2636F6
-P 5550 2900
-F 0 "J3" H 5522 2874 50  0000 R CNN
-F 1 "Conn_01x04_Male" H 5522 2783 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 5550 2900 50  0001 C CNN
-F 3 "~" H 5550 2900 50  0001 C CNN
-	1    5550 2900
+P 3950 4550
+F 0 "J3" H 3922 4524 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 3922 4433 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 3950 4550 50  0001 C CNN
+F 3 "~" H 3950 4550 50  0001 C CNN
+	1    3950 4550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR03
-U 1 1 5D1B7B30
-P 5750 3100
-F 0 "#PWR03" H 5750 2850 50  0001 C CNN
-F 1 "GND" H 5755 2927 50  0000 C CNN
-F 2 "" H 5750 3100 50  0001 C CNN
-F 3 "" H 5750 3100 50  0001 C CNN
-	1    5750 3100
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	5900 3000 5750 3000
+	4300 4650 4150 4650
 Wire Wire Line
-	5900 2900 5750 2900
+	4300 4550 4150 4550
 Wire Wire Line
-	5900 2800 5750 2800
+	4300 4450 4150 4450
 $Comp
 L Connector:Conn_01x04_Male J4
 U 1 1 5D2641D5
-P 3950 4050
-F 0 "J4" H 3922 4024 50  0000 R CNN
-F 1 "Conn_01x04_Male" H 3922 3933 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 3950 4050 50  0001 C CNN
-F 3 "~" H 3950 4050 50  0001 C CNN
-	1    3950 4050
+P 3900 3450
+F 0 "J4" H 3872 3424 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 3872 3333 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 3900 3450 50  0001 C CNN
+F 3 "~" H 3900 3450 50  0001 C CNN
+	1    3900 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 5D1B764D
-P 4150 4250
-F 0 "#PWR04" H 4150 4000 50  0001 C CNN
-F 1 "GND" H 4155 4077 50  0000 C CNN
-F 2 "" H 4150 4250 50  0001 C CNN
-F 3 "" H 4150 4250 50  0001 C CNN
-	1    4150 4250
+P 4100 3650
+F 0 "#PWR04" H 4100 3400 50  0001 C CNN
+F 1 "GND" H 4105 3477 50  0000 C CNN
+F 2 "" H 4100 3650 50  0001 C CNN
+F 3 "" H 4100 3650 50  0001 C CNN
+	1    4100 3650
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 4050 4150 4050
+	4250 3450 4100 3450
 Wire Wire Line
-	4300 4150 4150 4150
+	4250 3550 4100 3550
 Wire Wire Line
-	4300 3950 4150 3950
-Text GLabel 4300 4150 2    50   Input ~ 0
+	4250 3350 4100 3350
+Text GLabel 4300 2850 2    50   Input ~ 0
 IO_2A
-Text GLabel 4300 4050 2    50   Input ~ 0
+Text GLabel 4300 2950 2    50   Input ~ 0
 IO_2B
-Text GLabel 4300 3950 2    50   Input ~ 0
+Text GLabel 4300 2750 2    50   Input ~ 0
 PWM_2
 Text GLabel 6100 5300 2    50   Input ~ 0
 PWM_2
-Text GLabel 4300 3200 2    50   Input ~ 0
+Text GLabel 4300 3850 2    50   Input ~ 0
 PWM_1
-Text GLabel 4300 3400 2    50   Input ~ 0
+Text GLabel 4300 4050 2    50   Input ~ 0
 IO_1B
-Text GLabel 4300 3300 2    50   Input ~ 0
+Text GLabel 4300 3950 2    50   Input ~ 0
 IO_1A
 Wire Wire Line
-	4300 3200 4150 3200
+	4300 2750 4150 2750
 Wire Wire Line
-	4300 3300 4150 3300
+	4300 2850 4150 2850
 Wire Wire Line
-	4300 3400 4150 3400
+	4300 2950 4150 2950
 $Comp
 L power:GND #PWR02
 U 1 1 5D1B80D5
-P 4150 3500
-F 0 "#PWR02" H 4150 3250 50  0001 C CNN
-F 1 "GND" H 4155 3327 50  0000 C CNN
-F 2 "" H 4150 3500 50  0001 C CNN
-F 3 "" H 4150 3500 50  0001 C CNN
-	1    4150 3500
+P 4150 3050
+F 0 "#PWR02" H 4150 2800 50  0001 C CNN
+F 1 "GND" H 4155 2877 50  0000 C CNN
+F 2 "" H 4150 3050 50  0001 C CNN
+F 3 "" H 4150 3050 50  0001 C CNN
+	1    4150 3050
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x04_Male J2
 U 1 1 5D262B6F
-P 3950 3300
-F 0 "J2" H 3922 3274 50  0000 R CNN
-F 1 "Conn_01x04_Male" H 3922 3183 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 3950 3300 50  0001 C CNN
-F 3 "~" H 3950 3300 50  0001 C CNN
-	1    3950 3300
+P 3950 2850
+F 0 "J2" H 3922 2824 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 3922 2733 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 3950 2850 50  0001 C CNN
+F 3 "~" H 3950 2850 50  0001 C CNN
+	1    3950 2850
 	1    0    0    -1  
 $EndComp
-Text GLabel 5300 5500 0    50   Input ~ 0
+Text GLabel 5300 5300 0    50   Input ~ 0
 IO_1A
-Text GLabel 5300 5600 0    50   Input ~ 0
+Text GLabel 5300 5400 0    50   Input ~ 0
 IO_1B
-$Comp
-L power:+5V #PWR07
-U 1 1 5D581552
-P 5900 2150
-F 0 "#PWR07" H 5900 2000 50  0001 C CNN
-F 1 "+5V" H 5800 2300 50  0000 L CNN
-F 2 "" H 5900 2150 50  0001 C CNN
-F 3 "" H 5900 2150 50  0001 C CNN
-	1    5900 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR08
-U 1 1 5D581D32
-P 5900 2800
-F 0 "#PWR08" H 5900 2650 50  0001 C CNN
-F 1 "+5V" H 5900 2950 50  0000 C CNN
-F 2 "" H 5900 2800 50  0001 C CNN
-F 3 "" H 5900 2800 50  0001 C CNN
-	1    5900 2800
-	1    0    0    -1  
-$EndComp
-Text GLabel 5900 2250 2    50   Input ~ 0
-enc_elevator_b
-Text GLabel 5900 2350 2    50   Input ~ 0
-enc_elevator_a
-Text GLabel 5900 3000 2    50   Input ~ 0
-enc_collect_b
-Text GLabel 5900 2900 2    50   Input ~ 0
-enc_collect_a
 Wire Notes Line
 	8350 1900 8350 5700
 Text GLabel 6100 5400 2    50   Input ~ 0
@@ -431,24 +358,16 @@ F 3 "~" H 3950 5300 50  0001 C CNN
 	1    3950 5300
 	-1   0    0    1   
 $EndComp
-Wire Notes Line
-	4650 2650 3300 2650
 Text Label 3350 2650 0    50   ~ 0
 air
 Wire Notes Line
-	4650 1900 4650 5700
+	3350 4800 4650 4800
 Wire Notes Line
-	3350 4850 4650 4850
-Wire Notes Line
-	6700 1900 6700 5700
-Wire Notes Line
-	4650 3350 6700 3350
+	4700 3400 6750 3400
 Text Label 4650 3350 0    50   ~ 0
 encoder
 Wire Notes Line
 	6700 4100 8350 4100
-Wire Notes Line
-	8350 5700 3350 5700
 Wire Notes Line
 	3350 1900 8350 1900
 $Comp
@@ -525,19 +444,154 @@ F 3 "" H 7450 5500 50  0001 C CNN
 $EndComp
 Text Label 3350 4850 0    50   ~ 0
 motor
-Text Label 6700 5700 0    50   ~ 0
-switch
-NoConn ~ 5300 4600
-NoConn ~ 5300 4700
-NoConn ~ 5300 4800
-NoConn ~ 5300 4900
-NoConn ~ 6100 5100
-NoConn ~ 6100 5200
-NoConn ~ 4400 2300
-Text GLabel 5300 4300 0    50   Input ~ 0
-sw1
 Text GLabel 5300 4400 0    50   Input ~ 0
-sw2
+sw1
 Text GLabel 5300 4500 0    50   Input ~ 0
+sw2
+Wire Notes Line
+	4650 1900 4650 5700
+Wire Wire Line
+	5150 3700 5150 3800
+Wire Wire Line
+	5300 3700 5150 3700
+Text GLabel 5300 5600 0    50   Input ~ 0
+IO_2B
+Text GLabel 6100 4800 2    50   Input ~ 0
+CAN_td
+Text GLabel 6100 4700 2    50   Input ~ 0
+CAN_rd
+Text GLabel 6100 5600 2    50   Input ~ 0
+IO_3A
+Text GLabel 6100 5500 2    50   Input ~ 0
+IO_3B
+Text GLabel 6100 5100 2    50   Input ~ 0
+PWM_4
+Text GLabel 6100 5200 2    50   Input ~ 0
+PWM_3
+Text GLabel 6100 5000 2    50   Input ~ 0
+IO_4A
+Text GLabel 6100 4900 2    50   Input ~ 0
+IO_4B
+Text GLabel 4250 3350 2    50   Input ~ 0
+PWM_4
+Text GLabel 4300 4450 2    50   Input ~ 0
+PWM_3
+Text GLabel 4250 3450 2    50   Input ~ 0
+IO_4A
+Text GLabel 4250 3550 2    50   Input ~ 0
+IO_4B
+Text GLabel 4300 4550 2    50   Input ~ 0
+IO_3A
+Text GLabel 4300 4650 2    50   Input ~ 0
+IO_3B
+$Comp
+L power:GND #PWR03
+U 1 1 5D739B0D
+P 4150 4750
+F 0 "#PWR03" H 4150 4500 50  0001 C CNN
+F 1 "GND" H 4155 4577 50  0000 C CNN
+F 2 "" H 4150 4750 50  0001 C CNN
+F 3 "" H 4150 4750 50  0001 C CNN
+	1    4150 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J10
+U 1 1 5D7427AA
+P 5750 2100
+F 0 "J10" H 5722 2074 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 5722 1983 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 5750 2100 50  0001 C CNN
+F 3 "~" H 5750 2100 50  0001 C CNN
+	1    5750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 5D7469E0
+P 5950 2000
+F 0 "#PWR07" H 5950 1850 50  0001 C CNN
+F 1 "+5V" H 5965 2173 50  0000 C CNN
+F 2 "" H 5950 2000 50  0001 C CNN
+F 3 "" H 5950 2000 50  0001 C CNN
+	1    5950 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR012
+U 1 1 5D7473E3
+P 6000 2800
+F 0 "#PWR012" H 6000 2650 50  0001 C CNN
+F 1 "+5V" H 6015 2973 50  0000 C CNN
+F 2 "" H 6000 2800 50  0001 C CNN
+F 3 "" H 6000 2800 50  0001 C CNN
+	1    6000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5D74D157
+P 6000 3100
+F 0 "#PWR016" H 6000 2850 50  0001 C CNN
+F 1 "GND" H 6005 2927 50  0000 C CNN
+F 2 "" H 6000 3100 50  0001 C CNN
+F 3 "" H 6000 3100 50  0001 C CNN
+	1    6000 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J11
+U 1 1 5D74586F
+P 5800 2900
+F 0 "J11" H 5772 2874 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 5772 2783 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 5800 2900 50  0001 C CNN
+F 3 "~" H 5800 2900 50  0001 C CNN
+	1    5800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5D74F70D
+P 5950 2300
+F 0 "#PWR08" H 5950 2050 50  0001 C CNN
+F 1 "GND" H 5955 2127 50  0000 C CNN
+F 2 "" H 5950 2300 50  0001 C CNN
+F 3 "" H 5950 2300 50  0001 C CNN
+	1    5950 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MyComponent:LPC1768 U5
+U 1 1 5D16AC0C
+P 5700 4650
+F 0 "U5" H 5700 5825 50  0000 C CNN
+F 1 "LPC1768" H 5700 5734 50  0000 C CNN
+F 2 "MyFootprint:LPC1768" H 5750 6250 50  0001 C CNN
+F 3 "" H 5750 6250 50  0001 C CNN
+	1    5700 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 4900 0    50   Input ~ 0
+enc_2A
+Text GLabel 5300 5000 0    50   Input ~ 0
+enc_2B
+Text GLabel 6000 2900 2    50   Input ~ 0
+enc_2A
+Text GLabel 6000 3000 2    50   Input ~ 0
+enc_2B
+Text GLabel 5300 4800 0    50   Input ~ 0
+enc_1B
+Text GLabel 5300 4700 0    50   Input ~ 0
+enc_1A
+Text GLabel 5300 4600 0    50   Input ~ 0
 sw3
+Text GLabel 5950 2200 2    50   Input ~ 0
+enc_1B
+Text GLabel 5950 2100 2    50   Input ~ 0
+enc_1A
+Text GLabel 4400 2300 2    50   Input ~ 0
+air_3
+Text GLabel 5300 4300 0    50   Input ~ 0
+air_3
 $EndSCHEMATC

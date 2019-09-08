@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source C:\Users\ryoga\Documents\Circuit\circuit_MR_2019\MR1\MR1.sch)
-    (date "2019/08/20 9:09:27")
-    (tool "Eeschema (5.1.2)-1")
+    (source C:\Users\mocch\OneDrive\デスクトップ\robocon\circuit_MR_2019\MR1\MR1.sch)
+    (date "2019/09/09 0:03:04")
+    (tool "Eeschema (5.1.2)-2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -270,7 +270,7 @@
     (library (logical Interface_CAN_LIN)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Interface_CAN_LIN.lib"))
     (library (logical MyComponent)
-      (uri C:\Users\ryoga\Documents\Circuit\circuit_MR_2019\MR1/lib/MyComponent/MyComponent.lib))
+      (uri C:\Users\mocch\OneDrive\デスクトップ\robocon\circuit_MR_2019\MR1/lib/MyComponent/MyComponent.lib))
     (library (logical Transistor_BJT)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Transistor_BJT.lib")))
   (nets
@@ -392,10 +392,10 @@
       (node (ref U5) (pin 4)))
     (net (code 40) (name CAN_td)
       (node (ref U8) (pin 1))
-      (node (ref U5) (pin 30)))
+      (node (ref U5) (pin 29)))
     (net (code 41) (name CAN_rd)
       (node (ref U8) (pin 4))
-      (node (ref U5) (pin 29)))
+      (node (ref U5) (pin 30)))
     (net (code 42) (name CAN_L)
       (node (ref J5) (pin 2))
       (node (ref U8) (pin 6))
