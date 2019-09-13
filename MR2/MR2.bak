@@ -245,19 +245,19 @@ Wire Wire Line
 	4250 3550 4100 3550
 Wire Wire Line
 	4250 3350 4100 3350
-Text GLabel 4250 3450 2    50   Input ~ 0
+Text GLabel 4300 2850 2    50   Input ~ 0
 IO_2A
-Text GLabel 4250 3550 2    50   Input ~ 0
+Text GLabel 4300 2950 2    50   Input ~ 0
 IO_2B
-Text GLabel 4250 3350 2    50   Input ~ 0
+Text GLabel 4300 2750 2    50   Input ~ 0
 PWM_2
 Text GLabel 6100 5300 2    50   Input ~ 0
 PWM_2
-Text GLabel 4300 2750 2    50   Input ~ 0
+Text GLabel 4300 3850 2    50   Input ~ 0
 PWM_1
-Text GLabel 4300 2950 2    50   Input ~ 0
+Text GLabel 4300 4050 2    50   Input ~ 0
 IO_1B
-Text GLabel 4300 2850 2    50   Input ~ 0
+Text GLabel 4300 3950 2    50   Input ~ 0
 IO_1A
 Wire Wire Line
 	4300 2750 4150 2750
@@ -358,8 +358,6 @@ F 3 "~" H 3950 5300 50  0001 C CNN
 	1    3950 5300
 	-1   0    0    1   
 $EndComp
-Wire Notes Line
-	4650 2650 3300 2650
 Text Label 3350 2650 0    50   ~ 0
 air
 Wire Notes Line
@@ -452,8 +450,6 @@ Text GLabel 5300 4500 0    50   Input ~ 0
 sw2
 Wire Notes Line
 	4650 1900 4650 5700
-Wire Notes Line
-	3350 1900 3350 5700
 Wire Wire Line
 	5150 3700 5150 3800
 Wire Wire Line
@@ -476,17 +472,17 @@ Text GLabel 6100 5000 2    50   Input ~ 0
 IO_4A
 Text GLabel 6100 4900 2    50   Input ~ 0
 IO_4B
-Text GLabel 4300 4450 2    50   Input ~ 0
+Text GLabel 4250 3350 2    50   Input ~ 0
 PWM_4
-Text GLabel 4300 3850 2    50   Input ~ 0
+Text GLabel 4300 4450 2    50   Input ~ 0
 PWM_3
-Text GLabel 4300 4550 2    50   Input ~ 0
+Text GLabel 4250 3450 2    50   Input ~ 0
 IO_4A
-Text GLabel 4300 4650 2    50   Input ~ 0
+Text GLabel 4250 3550 2    50   Input ~ 0
 IO_4B
-Text GLabel 4300 3950 2    50   Input ~ 0
+Text GLabel 4300 4550 2    50   Input ~ 0
 IO_3A
-Text GLabel 4300 4050 2    50   Input ~ 0
+Text GLabel 4300 4650 2    50   Input ~ 0
 IO_3B
 $Comp
 L power:GND #PWR03

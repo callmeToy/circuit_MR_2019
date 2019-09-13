@@ -30,8 +30,6 @@ NoConn ~ 6100 4300
 NoConn ~ 6100 4400
 NoConn ~ 6100 4500
 NoConn ~ 6100 4600
-NoConn ~ 5300 5100
-NoConn ~ 5300 5200
 NoConn ~ 5300 3900
 NoConn ~ 5300 4000
 $Comp
@@ -594,4 +592,47 @@ Text GLabel 4400 2300 2    50   Input ~ 0
 air_3
 Text GLabel 5300 4300 0    50   Input ~ 0
 air_3
+Text GLabel 5300 5100 0    50   Input ~ 0
+enc_3A
+Text GLabel 5300 5200 0    50   Input ~ 0
+enc_3B
+Text Label 4800 1650 0    50   ~ 0
+encoder
+$Comp
+L power:+5V #PWR017
+U 1 1 5D7B182C
+P 6150 1100
+F 0 "#PWR017" H 6150 950 50  0001 C CNN
+F 1 "+5V" H 6165 1273 50  0000 C CNN
+F 2 "" H 6150 1100 50  0001 C CNN
+F 3 "" H 6150 1100 50  0001 C CNN
+	1    6150 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5D7B1836
+P 6150 1400
+F 0 "#PWR018" H 6150 1150 50  0001 C CNN
+F 1 "GND" H 6155 1227 50  0000 C CNN
+F 2 "" H 6150 1400 50  0001 C CNN
+F 3 "" H 6150 1400 50  0001 C CNN
+	1    6150 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J12
+U 1 1 5D7B1840
+P 5950 1200
+F 0 "J12" H 5922 1174 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 5922 1083 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 5950 1200 50  0001 C CNN
+F 3 "~" H 5950 1200 50  0001 C CNN
+	1    5950 1200
+	1    0    0    -1  
+$EndComp
+Text GLabel 6150 1200 2    50   Input ~ 0
+enc_3A
+Text GLabel 6150 1300 2    50   Input ~ 0
+enc_3B
 $EndSCHEMATC

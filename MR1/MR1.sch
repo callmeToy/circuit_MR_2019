@@ -692,10 +692,60 @@ $EndComp
 Text Label 1550 4450 0    50   ~ 0
 tape_led
 NoConn ~ 2450 5550
-NoConn ~ 5300 4250
 Text GLabel 5300 4050 0    50   Input ~ 0
 enc_X_b
 Text GLabel 5300 4150 0    50   Input ~ 0
 enc_X_a
-NoConn ~ 5300 3750
+Text GLabel 5300 3750 0    50   Input ~ 0
+sub_sw
+Text GLabel 5300 4250 0    50   Input ~ 0
+sub_sw2
+$Comp
+L Connector:Conn_01x02_Male J9
+U 1 1 5D7B3824
+P 5500 2150
+F 0 "J9" H 5500 2250 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5500 2000 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 5500 2150 50  0001 C CNN
+F 3 "~" H 5500 2150 50  0001 C CNN
+	1    5500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J10
+U 1 1 5D7B5860
+P 5500 2450
+F 0 "J10" H 5500 2550 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5500 2300 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 5500 2450 50  0001 C CNN
+F 3 "~" H 5500 2450 50  0001 C CNN
+	1    5500 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5700 2150 2    50   Input ~ 0
+sub_sw
+Text GLabel 5700 2450 2    50   Input ~ 0
+sub_sw2
+$Comp
+L power:GND #PWR0103
+U 1 1 5D7B9A66
+P 5700 2550
+F 0 "#PWR0103" H 5700 2300 50  0001 C CNN
+F 1 "GND" H 5705 2377 50  0000 C CNN
+F 2 "" H 5700 2550 50  0001 C CNN
+F 3 "" H 5700 2550 50  0001 C CNN
+	1    5700 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5D7BB29E
+P 5700 2250
+F 0 "#PWR0104" H 5700 2000 50  0001 C CNN
+F 1 "GND" H 5705 2077 50  0000 C CNN
+F 2 "" H 5700 2250 50  0001 C CNN
+F 3 "" H 5700 2250 50  0001 C CNN
+	1    5700 2250
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
